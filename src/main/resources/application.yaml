@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: twilight
+    username: twilight
+    url: jdbc:mysql://localhost:3306/twilight
+
+logging:
+  level:
+    root: warn
+    '[cds]': debug
