@@ -30,7 +30,7 @@ public class FetchFixtureTest extends FetchFixtureTestSupport {
   @Test
   void testThatFixtureListIsReturnedWhenARequestIsMade() {
     // Given: a valid color and URI
-    String color = "Black";
+    String color = "black";
     String uri = String.format("%s?color=%s", getBaseUriForFixtures(), color);
 
 
